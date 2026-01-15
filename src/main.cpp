@@ -1,7 +1,8 @@
-#include "base/usage/rename_with_numbering.h"
+#include "base/usage/RenameWithNumberingWorker.h"
 
 int main()
 {
-	base::usage::rename_with_numbering::rename("");
+	base::usage::RenameWithNumberingWorker worker{""};
+	worker.RenameWithNumbering();
 	return 0;
 }
