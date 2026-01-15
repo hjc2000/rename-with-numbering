@@ -2,6 +2,6 @@
 
 int main()
 {
-	base::usage::rename_with_numbering("");
+	base::usage::rename_with_numbering::rename("");
 	return 0;
 }
